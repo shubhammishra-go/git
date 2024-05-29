@@ -136,10 +136,27 @@ Increased exposure of the code base since every participant has a locally `vulne
 
 
 
+## GitHub Authentication
+
+
+First we need to configure username and email
+
+`git config --global user.name shubhammishra-go`
+
+`git config --global user.email shubham.....@gmail.com`
+
+Than Create An access token goto Settings >>> Developer Settings 
+
+Create an Auth URL
+
+`git remote set-url origin https://<accessToken>@github.com/<githubUsername>/<repository>`
+
+
+execute it on terminal , Done!
 
 
 
-# Commands
+
 
 ...
 
